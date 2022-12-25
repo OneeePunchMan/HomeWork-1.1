@@ -8,7 +8,7 @@ import (
 
 func main() {
 	//создание бота с указанием токена
-	bot, err := tgbotapi.NewBotAPI("5727762611:AAF6C7F-ix6nbzClrPJQqb3KRNQic3R8Ltk")
+	bot, err := tgbotapi.NewBotAPI("5819023283:AAGP2VgTUvGq9Qw69Lx9lAEL2IqWS4FYSF4")
 	if err != nil {
 		log.Panic(err)
 	}
