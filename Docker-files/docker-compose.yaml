@@ -1,0 +1,11 @@
+version: latest
+
+services:
+  db_auth:
+    container_name: db_auth
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=ttyyuu123
+      - POSTGRES_USER=postgres
+    image: postgres:12.13-alpine3.17
